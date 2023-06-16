@@ -1,0 +1,399 @@
+/****************** U S E D   F O N T S **********************/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+/********************* R E S E T *************************/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+img{
+	border: none;
+	border-radius: 3px;
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+	text-shadow: none;
+}
+a:hover{
+	color: #66fcf1;
+	transition: ease-in 0.3s;
+}
+p{
+	margin-bottom: 8px;
+}
+
+
+
+/* G E N E R A L    S T Y L E */
+#wrapper{
+	width: 95%;
+	margin: 16px auto;
+	background-color: #1f2833;
+	padding: 20px 20px;
+	box-shadow: 0 4px 6px #1f2833;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background: url('../images/bg.png') repeat;
+	font-family: 'Poppins';
+	color: #fff;
+	font-size: 14px;
+	text-shadow: 1px 1px 0px #000;
+}
+
+
+/* L O G O   &  N A V   B A R  */
+header h1{
+	font-family: 'Poppins';
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 2.5em;
+	text-shadow: 1px 1px 0 #000;
+	position: relative;
+	width: 400px;
+	margin-bottom: 2px;
+}
+header h2{
+	font-size: 10px;
+	font-weight: normal;	
+	font-family: 'Poppins';
+	width: 270px;
+	text-shadow: 1px 1px 0 #000;
+	text-transform: uppercase;
+	color: #66fcf1;
+}
+#tagline{
+	margin-top: -8px;
+}		
+#logo, nav, nav li{
+	display: inline-block;
+	vertical-align: top;
+	zoom:1;
+}
+#logo{
+	width: 270px;
+}
+nav a {
+	color: #fff;
+	font-family: 'Poppins';
+	text-decoration: none;
+	font-size: 1.5em;
+	margin-left: 25px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 0px #000;
+}
+
+nav{
+	margin: 20px 4px 0 0;
+	position: relative;
+	left: 150px;
+	float: center;
+}
+header{
+	margin-bottom: 25px;
+}
+#home a#homenav, #blog a#blognav, #fullwidth a#fullwidthnav, #contact a#contactnav{
+	color: #66fcf1;
+}
+
+/* H O M E    C O N T E N T */
+#line h1{
+	font-family: 'Poppins';
+	font-weight: normal;
+	font-size: 30px;
+	text-transform: uppercase;
+	position: relative;
+	color: #f8f8f8;
+	text-shadow: 2px 2px 0 #000;
+	text-align:  center;
+	left: 400px;
+}
+#line h1, .dline{
+	display: inline-block;
+	zoom:1;
+	margin: 0 0 0 10px;
+	position: relative;
+	left: 200px;
+}
+#line{
+	margin: 0 0 0 80px;
+}
+.dline{
+	width: 500px;
+	height: 3px;
+	background: url('../images/bgdline.png') repeat-x ;
+	margin-bottom: 10px;
+}
+#ourserv article{
+	width: 475px;
+	display: inline-block;
+	zoom:1;
+	vertical-align: top;
+	margin: 0 38px 0 0;
+	text-align: center;
+	font-size: 15px;
+}
+#ourserv article h1, #latestp article h1{
+	font-family: 'Poppins';
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 22px;
+	margin-bottom: 5px;
+}
+.lastarticle{
+	margin:0;
+}
+#ourserv{
+	margin: 8px 0 15px 20px;
+	width: 100%;
+	text-align: center;
+}
+#ourserv img{
+	margin-bottom: 5px;
+    box-shadow: 0 4px 6px #000;
+	border-radius: 8px;
+	width: 500px;
+	cursor: pointer;
+}
+
+#ourserv img:hover, #latestp img:hover, #articles img:hover{
+	box-shadow: 0 0 2px 1px #66fcf1;
+	opacity: 0.8;
+	transition: ease-in 0.3s;
+}
+
+.rm{
+	color: #121212;
+	background-color: #F2F2F2;
+	padding: 1px 4px;
+	display:block;
+	width: 100px;
+	margin-top: 5px;
+	box-shadow: 0px 0px 3px #000;
+	font-family: 'Poppins';
+	text-transform: uppercase; 
+	font-size: 18px;
+	border-radius: 2px;
+}
+.rm:hover{
+	background-color: #66fcf1;
+	transition: ease-in 0.3s;
+	color: #121212;
+}	
+
+#sline h1{
+	font-family: 'Poppins';
+	font-weight: normal;
+	font-size: 30px;
+	text-transform: uppercase;
+	position: relative;
+	color: #f8f8f8;
+	text-shadow: 2px 2px 0 #000;
+	text-align:  center;
+	left: 400px;
+}
+#sline h1, .sdline{
+	display: inline-block;
+	zoom:1;
+	margin: 0 0 0 10px;
+	position: relative;
+	left: 200px;
+}
+#sline{
+	margin: 20px 0 10px 80px;
+}
+.sdline{
+	width: 485px;
+	height: 2px;
+	background: url('../images/bgdline.png') repeat-x ;
+	margin-bottom: 10px;
+}
+#latestp article{
+	width: 475px;
+	display: inline-block;
+	zoom:1;
+	vertical-align: top;
+	margin: 0 38px 0 0;
+	text-align: center;
+	font-size: 15px;
+}
+#latestp{
+	margin-left: 20px;
+	margin: 8px 0 15px 20px;
+	width: 100%;
+	text-align: center;
+}
+#latestp img{
+	margin-bottom: 5px;
+    box-shadow: 0 4px 6px #000;
+	border-radius: 8px;
+	width: 500px;
+	cursor: pointer;
+}
+
+/* B L O G    S T Y L E  &   C O N T A C T   P A G E */
+#sidebar{
+	text-align: start;
+	zoom:1;
+	position: relative;
+	bottom: 1690px;
+	left: 1400px;
+}
+#articles{
+	margin: 8px 0 15px 20px;
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+
+#articles img{
+	margin-bottom: 5px;
+    box-shadow: 0 4px 6px #000;
+	border-radius: 8px;
+	width: 500px;
+	cursor: pointer;
+}
+
+#blog section, #contact section{
+	margin: 30px 0 0 10px;
+}
+#sidebar, #contat #sidebar{
+	width: 280px;
+	margin:0 0 0 55px;
+}
+#contactpost{
+	font-size: 20px;
+	position: relative;
+	background-color: #121212;
+	padding-left: 10px;
+	border-radius: 10px;
+	text-align: center;
+}
+.contact-us{
+	text-align: center;
+	font-size: 20px;
+}
+
+#blog li, #contact li{
+	list-style-type: square;
+}
+#blog article{
+	width: 700px;
+	display:inline-block;
+	zoom:1;
+	vertical-align: top;
+	margin: 0 38px 0 0;
+	text-align: center;
+	font-size: 15px;
+	position: relative;
+	right: 170px;
+}
+#blog footer, #contact footer{
+	margin-top: 0px;
+}
+#blog article h1 a{
+	font-family: 'Poppins';
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 22px;
+	text-shadow: 1px 1px 0 #000;
+	word-spacing: 2px;
+	margin-bottom: 5px;
+}
+#blog article h2{
+	font-size: 12px;
+	font-weight: normal;
+	letter-spacing: 0.2px;
+	margin-bottom: 12px;
+	background-color: #0a0a0a;
+	padding: 4px 8px 4px 8px;
+	font-family: 'Poppins';
+	text-transform: none;
+}
+#blog article h2 a:hover{
+	text-decoration: underline;
+}
+#blog article img{
+	box-shadow: 0 4px 6px #000;
+	margin-bottom: 10px;
+}
+#sidebar h1, #contact #sidebar h1{
+	font-family: 'Poppins';
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 22px;
+	text-shadow: 1px 1px 0 #000;
+	word-spacing: 2px;
+	margin-bottom: 4px;
+}
+#sidebar li, #contact #sidebar li {
+	margin:0 0 4px 25px;
+	color: #b82924;
+}
+#sidebar li:hover, #contact #sidebar li:hover{
+	margin-left: 30px;
+}
+#sidebar li a:hover, #contact #sidebar li a:hover{
+	text-decoration: underline;
+}
+#blog aside, #contact #sidebar aside{
+	margin: 0 0 20px 0;
+}
+#cat, #archives, #contact #sidebar  #cat, #contact #sidebar #archives{
+	width: 130px;
+	display: inline-block;
+	vertical-align: top;
+	zoom:1;
+}
+.continue{
+	text-decoration: underline;
+}
+/* SINGLE POST STYLE  and CONTACT PAGE with SIDEBAR*/
+#singlepost{
+	text-align: center;
+}
+#singlepost{
+	margin-right: 20px;
+}
+
+.content-post{
+	text-align: justify;
+	margin-top: 50px;
+	margin-left: 250px;
+	margin-right: 250px;
+}
+/* CONTACT PAGE */
+
+
+/* S I N G L E   P O S T    S T Y L E */
+#h6, h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins';
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+
+.right{
+	float: right;
+	margin-left: 10px;
+}
+.left{
+	float: left;
+	margin-right: 10px;
+}
+.center{
+	display: block;
+	text-align: center;
+	margin: 20px auto;
+}
+
+/************* F O O T E R     S T Y L E *************************/
+
+footer{
+	margin-top: 30px;
+	text-align: center;
+}
